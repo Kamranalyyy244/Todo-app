@@ -61,7 +61,7 @@ const ToDo = () => {
         <div className='flex items-center my-7 bg-gray-200 rounded-full' >
             <input ref={inputRef} className='bg-transparent border-0 outline-none 
             flex-1 h-12 sm:h-14 pl-4 pr-2 placeholder:text-slate-600'  type="text" placeholder='Add your task' />
-            <button onClick={add} className='border-none rounded-full bg-orange-600 w-full md:w-32 h-12
+            <button onClick={add} className='border-none rounded-full bg-orange-600 w-full md:w-32 h-14
              text-white font-medium cursor-pointer transition duration-300 hover:bg-orange-700 ' >ADD +</button>
         </div>
 
